@@ -32,8 +32,7 @@ const HomePage = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.6 }}
           >
-            Educational Excellence Starts Here: Join the Student Management
-            Revolution
+          Enter into Student Info System
           </motion.h4>
 
           <div className="flex w-full flex-col gap-2.5 sm:flex-row sm:justify-center">
