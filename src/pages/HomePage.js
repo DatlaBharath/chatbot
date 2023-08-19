@@ -17,15 +17,6 @@ const HomePage = () => {
     >
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
         <div className="mx-auto flex max-w-xl flex-col items-center text-center">
-          <motion.p
-            className="mb-4 font-semibold text-orange-500 md:mb-6 md:text-lg xl:text-xl"
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.4, duration: 0.6 }}
-          >
-            Proud to introduce
-          </motion.p>
-
           <motion.h4
             className="mb-8 text-medium font-bold text-black sm:text-2xl md:mb-12 md:text-3xl"
             initial={{ opacity: 0, y: -20 }}
